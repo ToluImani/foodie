@@ -1,954 +1,1034 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
-    
-    .body,
-    .container-fluid {
-        margin: 0!important;
-        padding: 0!important
-    }
-    
-    .body,
-    .container-fluid,
-    .menu ul {
-        padding: 0!important
-    }
-    
-    
-    @font-face {
-        font-family: myFont;
-        src: url(font/MarkPro-Bold.otf);
-        font-weight: 700
-    }
-    
-    @font-face {
-        font-family: myFont;
-        src: url(font/MarkPro.otf);
-        font-weight: 400
-    }
-    
-    .body {
-        font-family: myFont, sans-serif!important;
-        transition: 2s!important;
-    }
-    
-    p {
-        line-height: 20px
-    }
-    
-    .container-fluid {
-        overflow-x: hidden!important
-    }
-    
-   
-    
-    .menu ul li {
-        color: #fff;
-        display: inline-block
-    }
-    
-    .menu ul li a {
-        font-size: 15px;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 600;
-        -webkit-transition: color 1s;
-        transition: color 1s;
-        opacity: 1;
-        margin-left: 60px;
-        letter-spacing: 1px
-    }
-    
-    .iono {
-        font-size: 20px!important;
-        font-weight: 900!important;
-        position: relative;
-        left: -376px
-    }
-    
-    .pick-img {
-        margin-top: 30px;
-        width: 25%
-    }
-    
-    .pickup-cnt {
-        text-align: center
-    }
-    
-    .pick-img2 {
-        width: 30%
-    }
-    
-    .foodie-text {
-        font-size: 36px;
-        color: #FF6511;
-        margin-top: 2%;
-        text-align: center;
-        font-weight: bold;
-    }
-    .hungry-btn {
-        position: relative;
-        color: white;
-        border-radius: 7px;
-        padding: 30px;
-        background: #FF6511;
-        width: 200px;
-        font-size: 20px;
-        text-align: center;
-        cursor: pointer;
-        transition: background-color 2s;
-       text-decoration: none !important;
-    }
-    .hungry-btn:hover{
-        background: #fcfcfc;
-        color: #FF6511;
-        box-shadow: 0 10px 40px 0 rgba(189, 136, 82, 0.07), 0 2px 9px 0 rgba(62,57,107,0.06);
+ .body, .container-fluid {
+     margin: 0!important;
+     padding: 0!important 
 }
-
-    
-    .pick-input,
-    .pick-input2 {
-        z-index: 0;
-        display: block;
-        width: 25%;
-        height: 40px;
-        font-size: 14px;
-        line-height: 18px;
-        margin: 0 auto;
-        outline: 0;
-        border: 1px solid #fff;
-        position: relative
+ .body, .container-fluid, .menu ul {
+     padding: 0!important 
+}
+ @font-face {
+     font-family: myFont;
+     src: url(font/MarkPro-Bold.otf);
+     font-weight: 700 
+}
+ @font-face {
+     font-family: myFont;
+     src: url(font/MarkPro.otf);
+     font-weight: 400 
+}
+ .body {
+     font-family: myFont, sans-serif!important;
+     transition: 2s!important;
+}
+ a:visited {
+     color: white !important;
+     text-decoration: none !important;
+}
+ a:hover {
+     color: white !important;
+     text-decoration: none !important;
+}
+ p {
+     line-height: 20px 
+}
+ .container-fluid {
+     overflow-x: hidden!important 
+}
+ .menu ul li {
+     color: #fff;
+     display: inline-block 
+}
+ .menu ul li a {
+     font-size: 15px;
+     color: #fff;
+     text-decoration: none;
+     font-weight: 600;
+     -webkit-transition: color 1s;
+     transition: color 1s;
+     opacity: 1;
+     margin-left: 60px;
+     letter-spacing: 1px 
+}
+ .iono {
+     font-size: 20px!important;
+     font-weight: 900!important;
+     position: relative;
+     left: -376px 
+}
+ .pick-img {
+     margin-top: 30px;
+     width: 25% 
+}
+ .pickup-cnt {
+     text-align: center 
+}
+ .pick-img2 {
+     width: 30% 
+}
+ .foodie-text {
+     font-size: 36px;
+     color: #FF6511;
+     margin-top: 2%;
+     text-align: center;
+     font-weight: bold;
+}
+ .foodie-text-2 {
+     font-size: 24px;
+     color: #585858;
+     margin-top: 2%;
+     text-align: center;
+     font-weight: 600;
+}
+ .hungry-btn {
+     position: relative;
+     color: white;
+     border-radius: 7px;
+     padding: 30px;
+     background: #FF6511;
+     width: 200px;
+     font-size: 20px;
+     text-align: center;
+     cursor: pointer;
+     transition: background-color 2s;
+     text-decoration: none !important;
+}
+ .pick-input {
+     z-index: 0;
+     display: block;
+     width: 25%;
+    /* height: 40px;
+     */
+     font-size: 14px;
+     line-height: 18px;
+     margin: 0 auto;
+     outline: 0;
+     border: 1px solid #585858;
+     position: relative 
+}
+ .pick-input2 {
+     z-index: 0;
+     display: block;
+     width: 25%;
+    /* height: 40px;
+     */
+     font-size: 14px;
+     line-height: 18px;
+     margin: 0 auto;
+     outline: 0;
+     position: relative 
+}
+ .pick-input {
+     font-weight: 300;
+     color: #585858;
+     padding: 15px;
+     border-radius: 3px;
+     -webkit-transition: background-color 1s;
+     transition: background-color 1s 
+}
+ .pick-input2 {
+     font-weight: 200;
+     color: rgb(255, 255, 255);
+     border-image-source: initial;
+     border-image-slice: initial;
+     border-image-repeat: initial;
+     padding: 10px;
+     background: #FF6511;
+     border-radius: 3px;
+     -webkit-transition: background-color 1s;
+     transition: background-color 1s;
+     text-decoration: none 
+}
+ .pick-input2:hover {
+     text-decoration: none;
+     background-color: transparent;
+     color: #FF6511;
+     border: 1px solid #FF6511 
+}
+ .foodie-hr {
+     border-top: 1px solid #ddd;
+    /* margin-top: 270px;
+     */
+     width: 65%;
+}
+ .foodie-footer {
+     background-color: transparent!important;
+     color: #000;
+     margin: 0!important;
+     font-weight: 300;
+     display: block!important;
+     text-align: center!important 
+}
+ .foodie-footer-p {
+     font-size: 14px;
+     color: #292929;
+     cursor: pointer;
+     padding: 10px 
+}
+ .foodie_p {
+     font-size: 12px;
+     color: #827474;
+     padding: 10px;
+     text-align: center;
+}
+ .li-foodie {
+     position: relative;
+     left: 300px;
+     top: 5px;
+     color: #585858 !important;
+     border-radius: 5px;
+     border: 2px solid #555555c4;
+     padding: 19px;
+     background: transparent;
+     font-weight: 100 !important;
+}
+ .menu ul li a:hover {
+     color: #f5f5f5;
+     text-decoration: none;
+    /* font-weight: 300;
+     */
+     opacity: 1 
+}
+ .menu ul li ul li a {
+     font-size: 10px;
+     text-transform: uppercase 
+}
+ .bluetop {
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+     height: auto!important;
+     background-color: #6d3131 
+}
+ .select {
+     position: relative;
+     overflow: hidden;
+     display: block;
+     margin: auto;
+     margin-right: 10px;
+     width: 400px;
+     height: 100%;
+     border: 1px solid #ddd;
+     border-radius: 3px;
+     font-size: 12px;
+    /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5);
+     */
+}
+ .select_2>i.toggle {
+     position: absolute;
+     z-index: 4;
+     right: 3.5em;
+     top: 33px;
+     color: #000000;
+}
+ .select_2>input:checked~i.toggle.icon-arrow-down {
+     display: none;
+}
+ .select_2>input:checked~i.toggle.icon-arrow-up {
+     display: block;
+}
+ .select_2>input:checked div.options label.option .title {
+     display: none !important;
+}
+ .select_2>input:not(:checked) {
+     z-index: 4;
+}
+ .select_2>input:not(:checked)~label.option>span.title {
+     display: none;
+}
+ .select_2>input:not(:checked)~i.toggle.icon-arrow-up {
+     display: none;
+}
+ .select_2>input:not(:checked)~i.toggle.icon-arrow-down {
+     display: block;
+}
+ .select>i.toggle {
+     position: absolute;
+     z-index: 4;
+     right: 3.5em;
+     top: 33px;
+     color: #000000;
+}
+ .select .title, .select .placeholder {
+     position: relative;
+     display: block;
+     width: 100%;
+     height: 100%;
+     padding: 20px 30px;
+     background: white;
+     border-top: 1px solid rgba(0, 0, 0, 0.05);
+     cursor: pointer;
+}
+ .select>input {
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     z-index: 1;
+     width: 100%;
+     height: 100%;
+     display: block;
+     opacity: 0;
+     cursor: pointer;
+}
+ .select>input:checked~i.toggle.icon-arrow-down {
+     display: none;
+}
+ .select>input:checked~i.toggle.icon-arrow-up {
+     display: block;
+}
+ .select>input:checked div.options label.option .title {
+     display: none !important;
+}
+ .select>input:not(:checked) {
+     z-index: 4;
+}
+ .select>input:not(:checked)~label.option>span.title {
+     display: none;
+}
+ .select>input:not(:checked)~i.toggle.icon-arrow-up {
+     display: none;
+}
+ .select>input:not(:checked)~i.toggle.icon-arrow-down {
+     display: block;
+}
+ .select>input:disabled {
+     cursor: no-drop;
+}
+ .select>span.placeholder {
+     position: relative;
+     z-index: 0;
+     top: 5px;
+     font-size: 20px;
+     display: inline-block;
+     width: 100%;
+     color: #000;
+     border-top: 0px;
+}
+ .select label.option {
+     display: block;
+     overflow: hidden;
+     z-index: 1;
+     font-size: 16px;
+     width: 100%;
+     transition: all 1s ease-out;
+}
+ .select label.option span.title {
+     position: relative;
+     z-index: 2;
+     transition: background 0.3s ease-out;
+}
+ .select label.option span.title i.icon {
+     padding-right: 8px;
+     color: #92a8d1;
+}
+ .select label.option span.title:hover {
+     color: #292929;
+     background: white;
+    /* box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+     */
+}
+ .select label.option input {
+     display: none;
+}
+ .select label.option input:checked~span.title {
+     position: absolute;
+     display: block;
+     z-index: 3;
+     top: 10px;
+     font-size: 18px;
+     background: #fff;
+     border-top: 0px;
+     box-shadow: none;
+     color: inherit;
+     width: 100%;
+}
+ .select label.option input:disabled~span.title {
+     background: #f9f9f9 !important;
+     color: #aaa;
+}
+ .select label.option input:disabled~span.title:hover {
+     color: #aaa;
+     background: none;
+     cursor: no-drop;
+}
+ @media only screen and (min-width:0px) and (max-width:320px) {
+     .pick-img3 {
+         width: 30%;
+         margin-left: 35% 
     }
-    
-    .pick-input {
-        font-weight: 300;
-        color: rgba(0, 0, 0, .77);
-        padding: 15px;
-        border-radius: 3px;
-        -webkit-transition: background-color 1s;
-        transition: background-color 1s
+     .foodie-logo{
+         visibility: visible;
+         animation-name: fadeInDown;
+         width: 40%;
+         float: left;
     }
-    
-    .pick-input2 {
-        font-weight: 600;
-        color: rgb(255, 255, 255);
-        border-image-source: initial;
-        border-image-slice: initial;
-        border-image-repeat: initial;
-        padding: 10px;
-        background: #fff;
-        border-radius: 3px;
-        -webkit-transition: background-color 1s;
-        transition: background-color 1s;
-        text-decoration: none
+     .li-foodie {
+         position: relative;
+         left: 55px;
+         top: -30px;
+         color: #58585894 !important;
+         border-radius: 5px;
+         border: 2px solid #585858b0;
+         padding: 10px;
+         font-size: 12px !important;
+         background: transparent;
+         font-weight: 100 !important;
     }
-    
-    .pick-input2:hover {
-        text-decoration: none;
-        background-color: transparent;
-        color: #fff;
-        border: 1px solid #fff
+     .foodie-text {
+         font-size: 30px;
+         line-height: 1.4;
+         color: #FF6511;
+         text-align: center;
+         font-weight: bold;
     }
-    
-    .foodie-hr {
-        border-top: 1px solid #ddd;
-        /* margin-top: 270px; */
-        width: 65%;
+     .form-margin{
+        /* margin-top: -25px;
+         */
     }
-    
-    .foodie-footer {
-        background-color: transparent!important;
-        color: #000;
-        margin: 0!important;
-        font-weight: 300;
-        display: block!important;
-        text-align: center!important
+     .select {
+         position: relative;
+         overflow: hidden;
+         display: block;
+         margin: auto;
+        /* margin-right: 10px;
+         */
+         width: 95%;
+         height: 100%;
+         border: 1px solid #ddd;
+         border-radius: 3px;
+         font-size: 12px;
+        /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5);
+         */
     }
-    
-    .foodie-footer-p {
-        font-size: 12px;
-        color: #292929;
-        cursor: pointer;
-        padding: 10px
+     .select>span.placeholder {
+         position: relative;
+         z-index: 0;
+         top: 6px;
+         font-size: 14px;
+         display: inline-block;
+         width: 100%;
+         color: #000;
+         border-top: 0px;
+         left: -10px;
     }
-    
-    .li-foodie {
-        position: relative;
-        left: 300px;
-        top: 5px;
-        color: #585858 !important;
-        border-radius: 5px;
-        border: 2px solid #555555c4;
-        padding: 19px;
-        background: transparent;
-        font-weight: 100 !important;
+     select .placeholder {
+         position: relative;
+         display: block;
+         width: 100%;
+         height: 100%;
+         padding: 15px 20px;
+         background: white;
+         border-top: 1px solid rgba(0, 0, 0, 0.05);
+         cursor: pointer;
     }
-    
-    .menu ul li a:hover {
-        color: #f5f5f5;
-        text-decoration: none;
-        /* font-weight: 300; */
-        opacity: 1
+     .hungry-btn {
+         position: relative;
+         color: white;
+         top: 10px;
+         left: 6px;
+         border-radius: 5px;
+         padding: 30px;
+         background: #FF6511;
+         width: 95%;
+         font-size: 20px;
+         text-align: center;
+         cursor: pointer;
+         transition: background-color 2s;
+         text-decoration: none !important;
     }
-    
-    .menu ul li ul li a {
-        font-size: 10px;
-        text-transform: uppercase
+     .select>i.toggle {
+         position: absolute;
+         z-index: 4;
+         right: 1.22em;
+         top: 29px;
+         color: #000000;
     }
-    
-    .bluetop {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-        height: auto!important;
-        background-color: #6d3131
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 80%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
     }
-    
-    .select {
-        position: relative;
-        overflow: hidden;
-        display: block;
-        margin: auto;
-        margin-right: 10px;
-        width: 400px;
-        height: 100%;
-        border: 1px solid #ddd;
-        border-radius: 3px;
-        font-size: 12px;
-        /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5); */
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 80%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
     }
-    
-    .select>i.toggle {
-        position: absolute;
-        z-index: 4;
-        right: 3.5em;
-        top: 33px;
-        color: #000000;
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
     }
-    
-    .select .title,
-    .select .placeholder {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 100%;
-        padding: 20px 30px;
-        background: white;
-        border-top: 1px solid rgba(0, 0, 0, 0.05);
-        cursor: pointer;
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
     }
-    
-    .select>input {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        display: block;
-        opacity: 0;
-        cursor: pointer;
+}
+ @media only screen and (min-width:321px) and (max-width:400px) {
+     .pick-img3 {
+         width: 30%;
+         margin-left: 35% 
     }
-    
-    .select>input:checked~i.toggle.icon-arrow-down {
-        display: none;
+     .foodie-hr {
+         border-top: 1px solid #ddd;
+        /* margin-top: 80%;
+         */
+         width: 85%;
     }
-    
-    .select>input:checked~i.toggle.icon-arrow-up {
-        display: block;
+     .foodie-footer-p {
+         font-size: 14px;
+         color: #292929;
+         cursor: pointer;
+         padding: 10px;
     }
-    
-    .select>input:checked div.options label.option .title {
-        display: none !important;
+     .foodie-logo {
+         width: 50%;
+         float: left;
+         position: relative;
+         left: -40px;
     }
-    
-    .select>input:not(:checked) {
-        z-index: 4;
+     .li-foodie {
+         position: relative;
+         left: 100px;
+         top: -30px;
+         color: #585858!important;
+         border-radius: 5px;
+         border: 2px solid #585858;
+         padding: 10px;
+         font-size: 12px !important;
+         background: transparent;
+         font-weight: 100 !important;
     }
-    
-    .select>input:not(:checked)~label.option>span.title {
-        display: none;
+     .foodie-text {
+         font-size: 34px;
+         line-height: 1.4;
+         color: #FF6511;
+         text-align: center;
+         font-weight: bold;
     }
-    
-    .select>input:not(:checked)~i.toggle.icon-arrow-up {
-        display: none;
+     .form-margin{
+        /* margin-top: -25px;
+         */
     }
-    
-    .select>input:not(:checked)~i.toggle.icon-arrow-down {
-        display: block;
+     .select {
+         position: relative;
+         overflow: hidden;
+         display: block;
+         margin: auto;
+        /* margin-right: 10px;
+         */
+         width: 95%;
+         height: 100%;
+         border: 1px solid #ddd;
+         border-radius: 3px;
+         font-size: 12px;
+        /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5);
+         */
     }
-    
-    .select>input:disabled {
-        cursor: no-drop;
+     .select>span.placeholder {
+         position: relative;
+         z-index: 0;
+         top: 6px;
+         font-size: 14px;
+         display: inline-block;
+         width: 100%;
+         color: #000;
+         border-top: 0px;
+         left: -10px;
     }
-    
-    .select>span.placeholder {
-        position: relative;
-        z-index: 0;
-        top: 5px;
-        font-size: 20px;
-        display: inline-block;
-        width: 100%;
-        color: #000;
-        border-top: 0px;
+     select .placeholder {
+         position: relative;
+         display: block;
+         width: 100%;
+         height: 100%;
+         padding: 15px 20px;
+         background: white;
+         border-top: 1px solid rgba(0, 0, 0, 0.05);
+         cursor: pointer;
     }
-    
-    .select label.option {
-        display: block;
-        overflow: hidden;
-        z-index: 1;
-        font-size: 16px;
-        width: 100%;
-        transition: all 1s ease-out;
+     .hungry-btn {
+         position: relative;
+         color: white;
+         top: 10px;
+         left: 6px;
+         border-radius: 5px;
+         padding: 30px;
+         background: #FF6511;
+         width: 95%;
+         font-size: 20px;
+         text-align: center;
+         cursor: pointer;
+         transition: background-color 2s;
+         text-decoration: none !important;
     }
-    
-    .select label.option span.title {
-        position: relative;
-        z-index: 2;
-        transition: background 0.3s ease-out;
+     .select>i.toggle {
+         position: absolute;
+         z-index: 4;
+         right: 1.22em;
+         top: 29px;
+         color: #000000;
     }
-    
-    .select label.option span.title i.icon {
-        padding-right: 8px;
-        color: #92a8d1;
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 80%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
     }
-    
-    .select label.option span.title:hover {
-        color: #292929;
-        background: white;
-        /* box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1); */
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 80%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
     }
-    
-    .select label.option input {
-        display: none;
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
     }
-    
-    .select label.option input:checked~span.title {
-        position: absolute;
-        display: block;
-        z-index: 3;
-        top: 10px;
-        font-size: 18px;
-        background: #fff;
-        border-top: 0px;
-        box-shadow: none;
-        color: inherit;
-        width: 100%;
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
     }
-    
-    .select label.option input:disabled~span.title {
-        background: #f9f9f9 !important;
-        color: #aaa;
+}
+ @media only screen and (min-width:401px) and (max-width:550px) {
+     .pick-img3 {
+         width: 30%;
+         margin-left: 35% 
     }
-    
-    .select label.option input:disabled~span.title:hover {
-        color: #aaa;
-        background: none;
-        cursor: no-drop;
+     .foodie-hr {
+         border-top: 1px solid #ddd;
+        /* margin-top: 80%;
+         */
+         width: 85%;
     }
-    
-    @media only screen and (min-width:0px) and (max-width:320px) {
-        .pick-img3 {
-            width: 30%;
-            margin-left: 35%
-        }
-        .foodie-logo{
-            visibility: visible;
-            animation-name: fadeInDown;
-            width: 40%;
-            float: left;
-        }
-        .li-foodie {
-            position: relative;
-            left: 55px;
-            top: -30px;
-            color: #58585894 !important;
-            border-radius: 5px;
-            border: 2px solid #585858b0;
-            padding: 10px;
-            font-size: 12px !important;
-            background: transparent;
-            font-weight: 100 !important;
-        }
-        .foodie-text {
-            font-size: 30px;
-            line-height: 1.4;
-            color: #FF6511;
-            text-align: center;
-            font-weight: bold;
-        }
-        .form-margin{
-            margin-top: -25px;
-        }
-        .select {
-            position: relative;
-            overflow: hidden;
-            display: block;
-            margin: auto;
-            /* margin-right: 10px; */
-            width: 95%;
-            height: 100%;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            font-size: 12px;
-            /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5); */
-        }
-        .select>span.placeholder {
-            position: relative;
-            z-index: 0;
-            top: 6px;
-            font-size: 14px;
-            display: inline-block;
-            width: 100%;
-            color: #000;
-            border-top: 0px;
-            left: -10px;
-        }
-        select .placeholder {
-            position: relative;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding: 15px 20px;
-            background: white;
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
-            cursor: pointer;
-        }
-        .hungry-btn {
-            position: relative;
-            color: white;
-            top: 10px;
-            left: 6px;
-            border-radius: 5px;
-            padding: 30px;
-            background: #FF6511;
-            width: 95%;
-            font-size: 20px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 2s;
-            text-decoration: none !important;
-        }
-        .select>i.toggle {
-            position: absolute;
-            z-index: 4;
-            right: 1.22em;
-            top: 29px;
-            color: #000000;
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 80%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .foodie-footer-p {
+         font-size: 14px;
+         color: #292929;
+         cursor: pointer;
+         padding: 10px;
     }
-    
-    @media only screen and (min-width:321px) and (max-width:400px) {
-        .pick-img3 {
-            width: 30%;
-            margin-left: 35%
-        }
-        .foodie-hr {
-            border-top: 1px solid #ddd;
-            /* margin-top: 80%; */
-            width: 85%;
-        }
-        .foodie-footer-p {
-            font-size: 14px;
-            color: #292929;
-            cursor: pointer;
-            padding: 10px;
-        }
-        .foodie-logo {
-            width: 50%;
-            float: left;
-            position: relative;
-            left: -40px;
-        }
-        .li-foodie {
-            position: relative;
-            left: 100px;
-            top: -30px;
-            color: #585858!important;
-            border-radius: 5px;
-            border: 2px solid #585858;
-            padding: 10px;
-            font-size: 12px !important;
-            background: transparent;
-            font-weight: 100 !important;
-        }
-        .foodie-text {
-            font-size: 34px;
-            line-height: 1.4;
-            color: #FF6511;
-            text-align: center;
-            font-weight: bold;
-        }
-        .form-margin{
-            margin-top: -25px;
-        }
-        .select {
-            position: relative;
-            overflow: hidden;
-            display: block;
-            margin: auto;
-            /* margin-right: 10px; */
-            width: 95%;
-            height: 100%;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            font-size: 12px;
-            /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5); */
-        }
-        .select>span.placeholder {
-            position: relative;
-            z-index: 0;
-            top: 6px;
-            font-size: 14px;
-            display: inline-block;
-            width: 100%;
-            color: #000;
-            border-top: 0px;
-            left: -10px;
-        }
-        select .placeholder {
-            position: relative;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding: 15px 20px;
-            background: white;
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
-            cursor: pointer;
-        }
-        .hungry-btn {
-            position: relative;
-            color: white;
-            top: 10px;
-            left: 6px;
-            border-radius: 5px;
-            padding: 30px;
-            background: #FF6511;
-            width: 95%;
-            font-size: 20px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 2s;
-            text-decoration: none !important;
-        }
-        .select>i.toggle {
-            position: absolute;
-            z-index: 4;
-            right: 1.22em;
-            top: 29px;
-            color: #000000;
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 80%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .foodie-logo {
+         width: 50%;
+         float: left;
     }
-    
-    @media only screen and (min-width:401px) and (max-width:550px) {
-        .pick-img3 {
-            width: 30%;
-            margin-left: 35%
-        }
-        .foodie-hr {
-            border-top: 1px solid #ddd;
-            /* margin-top: 80%; */
-            width: 85%;
-        }
-        .foodie-footer-p {
-            font-size: 14px;
-            color: #292929;
-            cursor: pointer;
-            padding: 10px;
-        }
-        .foodie-logo {
-            width: 50%;
-            float: left;
-        }
-        .li-foodie {
-            position: relative;
-            left: -10px;
-            top: 10px;
-            color: #585858!important;
-            border-radius: 5px;
-            border: 2px solid #585858;
-            padding: 10px;
-            font-size: 12px !important;
-            background: transparent;
-            font-weight: 100 !important;
-        }
-        .foodie-text {
-            font-size: 28px;
-            line-height: 1.4;
-            color: #FF6511;
-            text-align: center;
-            font-weight: bold;
-        }
-        .form-margin{
-            margin-top: -25px;
-        }
-        .select {
-            position: relative;
-            overflow: hidden;
-            display: block;
-            margin: auto;
-            /* margin-right: 10px; */
-            width: 95%;
-            height: 100%;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            font-size: 12px;
-            /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5); */
-        }
-        .select>span.placeholder {
-            position: relative;
-            z-index: 0;
-            top: 6px;
-            font-size: 16px;
-            display: inline-block;
-            width: 100%;
-            color: #000;
-            border-top: 0px;
-            left: -10px;
-        }
-        select .placeholder {
-            position: relative;
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding: 15px 20px;
-            background: white;
-            border-top: 1px solid rgba(0, 0, 0, 0.05);
-            cursor: pointer;
-        }
-        .hungry-btn {
-            position: relative;
-            color: white;
-            top: 10px;
-            left: 6px;
-            border-radius: 5px;
-            padding: 30px;
-            background: #FF6511;
-            width: 95%;
-            font-size: 20px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 2s;
-            text-decoration: none !important;
-        }
-        .select>i.toggle {
-            position: absolute;
-            z-index: 4;
-            right: 1.22em;
-            top: 29px;
-            color: #000000;
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 60%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .li-foodie {
+         position: relative;
+         left: -10px;
+         top: 10px;
+         color: #585858!important;
+         border-radius: 5px;
+         border: 2px solid #585858;
+         padding: 10px;
+         font-size: 12px !important;
+         background: transparent;
+         font-weight: 100 !important;
     }
-    
-    @media only screen and (min-width:551px) and (max-width:630px) {
-        .pick-img3 {
-            width: 25%;
-            margin-left: 35%
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 55%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .foodie-text {
+         font-size: 28px;
+         line-height: 1.4;
+         color: #FF6511;
+         text-align: center;
+         font-weight: bold;
     }
-    
-    @media only screen and (min-width:631px) and (max-width:767px) {
-        .pick-img3 {
-            width: 20%;
-            margin-left: 35%
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 50%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .form-margin{
+        /* margin-top: -25px;
+         */
     }
-    
-    @media only screen and (min-width:768px) and (max-width:991px) {
-        .menu ul li a {
-            font-size: 15px;
-            color: #fff;
-            text-decoration: none;
-            font-weight: 600;
-            -webkit-transition: color 1s;
-            transition: color 1s;
-            opacity: 1;
-            margin-left: 40px;
-            letter-spacing: 1px
-        }
-        .pick-input,
-        .pick-input2 {
-            z-index: 0;
-            display: block;
-            width: 50%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0;
-            position: relative
-        }
-        .li-foodie {
-            position: relative;
-            left: 130px;
-            color: #585858;
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
-        .iono {
-            font-size: 20px!important;
-            font-weight: 900!important;
-            position: relative;
-            left: -200px
-        }
+     .select {
+         position: relative;
+         overflow: hidden;
+         display: block;
+         margin: auto;
+        /* margin-right: 10px;
+         */
+         width: 95%;
+         height: 100%;
+         border: 1px solid #ddd;
+         border-radius: 3px;
+         font-size: 12px;
+        /* box-shadow: 0px 1em 2em -1.5em rgba(0, 0, 0, 0.5);
+         */
     }
-    
-    @media only screen and (min-width:992px) and (max-width:1199px) {
-        .iono,
-        .li-foodie {
-            position: relative
-        }
-        .iono {
-            font-size: 20px!important;
-            font-weight: 900!important;
-            left: -300px
-        }
-        .menu ul li a {
-            font-size: 15px;
-            color: #fff;
-            text-decoration: none;
-            font-weight: 600;
-            -webkit-transition: color 1s;
-            transition: color 1s;
-            opacity: 1;
-            margin-left: 40px;
-            letter-spacing: 1px
-        }
-        .li-foodie {
-            left: 180px
-        }
-        .pick-img3 {
-            width: 15%;
-            margin-left: 40%
-        }
-        .pick-input,
-        .pick-input2 {
-            position: relative;
-            z-index: 0;
-            display: block;
-            width: 35%;
-            height: 40px;
-            font-size: 14px;
-            line-height: 18px;
-            margin: 0 auto;
-            outline: 0
-        }
-        .pick-input {
-            font-weight: 300;
-            color: rgba(0, 0, 0, .77);
-            padding: 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s
-        }
-        .pick-input2 {
-            font-weight: 600;
-            color: #1951AC;
-            border-image-source: initial;
-            border-image-slice: initial;
-            border-image-repeat: initial;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            -webkit-transition: background-color 1s;
-            transition: background-color 1s;
-            text-decoration: none
-        }
+     .select>span.placeholder {
+         position: relative;
+         z-index: 0;
+         top: 6px;
+         font-size: 16px;
+         display: inline-block;
+         width: 100%;
+         color: #000;
+         border-top: 0px;
+         left: -10px;
     }
+     select .placeholder {
+         position: relative;
+         display: block;
+         width: 100%;
+         height: 100%;
+         padding: 15px 20px;
+         background: white;
+         border-top: 1px solid rgba(0, 0, 0, 0.05);
+         cursor: pointer;
+    }
+     .hungry-btn {
+         position: relative;
+         color: white;
+         top: 10px;
+         left: 6px;
+         border-radius: 5px;
+         padding: 30px;
+         background: #FF6511;
+         width: 95%;
+         font-size: 20px;
+         text-align: center;
+         cursor: pointer;
+         transition: background-color 2s;
+         text-decoration: none !important;
+    }
+     .select>i.toggle {
+         position: absolute;
+         z-index: 4;
+         right: 1.22em;
+         top: 29px;
+         color: #000000;
+    }
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 60%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
+    }
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 60%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
+    }
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
+    }
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
+    }
+}
+ @media only screen and (min-width:551px) and (max-width:630px) {
+     .pick-img3 {
+         width: 25%;
+         margin-left: 35% 
+    }
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 55%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
+    }
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 55%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
+    }
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
+    }
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
+    }
+}
+ @media only screen and (min-width:631px) and (max-width:767px) {
+     .pick-img3 {
+         width: 20%;
+         margin-left: 35% 
+    }
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 50%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
+    }
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 50%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
+    }
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
+    }
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
+    }
+}
+ @media only screen and (min-width:768px) and (max-width:991px) {
+     .menu ul li a {
+         font-size: 15px;
+         color: #fff;
+         text-decoration: none;
+         font-weight: 600;
+         -webkit-transition: color 1s;
+         transition: color 1s;
+         opacity: 1;
+         margin-left: 40px;
+         letter-spacing: 1px 
+    }
+     .pick-input, .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 50%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
+    }
+     .li-foodie {
+         position: relative;
+         left: 130px;
+         color: #585858;
+    }
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
+    }
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
+    }
+     .iono {
+         font-size: 20px!important;
+         font-weight: 900!important;
+         position: relative;
+         left: -200px 
+    }
+}
+ @media only screen and (min-width:992px) and (max-width:1199px) {
+     .iono, .li-foodie {
+         position: relative 
+    }
+     .iono {
+         font-size: 20px!important;
+         font-weight: 900!important;
+         left: -300px 
+    }
+     .menu ul li a {
+         font-size: 15px;
+         color: #fff;
+         text-decoration: none;
+         font-weight: 600;
+         -webkit-transition: color 1s;
+         transition: color 1s;
+         opacity: 1;
+         margin-left: 40px;
+         letter-spacing: 1px 
+    }
+     .li-foodie {
+         left: 180px 
+    }
+     .pick-img3 {
+         width: 15%;
+         margin-left: 40% 
+    }
+     .pick-input {
+         z-index: 0;
+         display: block;
+         width: 35%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         border: 1px solid #585858;
+         position: relative 
+    }
+     .pick-input2 {
+         z-index: 0;
+         display: block;
+         width: 35%;
+        /* height: 40px;
+         */
+         font-size: 14px;
+         line-height: 18px;
+         margin: 0 auto;
+         outline: 0;
+         position: relative 
+    }
+     .pick-input {
+         font-weight: 300;
+         color: #585858;
+         padding: 15px;
+         border: 1px solid #585858;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s 
+    }
+     .pick-input2 {
+         font-weight: 200;
+         color: rgb(255, 255, 255);
+         border-image-source: initial;
+         border-image-slice: initial;
+         border-image-repeat: initial;
+         padding: 10px;
+         background: #FF6511;
+         border-radius: 3px;
+         -webkit-transition: background-color 1s;
+         transition: background-color 1s;
+         text-decoration: none 
+    }
+}
