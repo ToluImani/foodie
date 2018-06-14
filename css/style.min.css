@@ -28,6 +28,10 @@
      color: white !important;
      text-decoration: none !important;
 }
+a:active {
+    color: white !important;
+     text-decoration: none !important;
+}
  p {
      line-height: 20px 
 }
@@ -137,12 +141,6 @@
      -webkit-transition: background-color 1s;
      transition: background-color 1s;
      text-decoration: none 
-}
- .pick-input2:hover {
-     text-decoration: none;
-     background-color: transparent;
-     color: #FF6511;
-     border: 1px solid #FF6511 
 }
  .foodie-hr {
      border-top: 1px solid #ddd;
